@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savings Tracker - Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav>
+    <h1>Savings Tracker</h1>
+    <ul>
+      <li><a href="index.html">Dashboard</a></li>
+      <li><a href="savings-log.html">Savings Log</a></li>
+      <li><a href="savings-form.html">Add Entry</a></li>
+      <li><a href="goals.html">Goals</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="summary">
+      <h2>Overview</h2>
+      <p>Total saved: <span id="totalSaved">0</span></p>
+      <p>Savings goal: <span id="savingsGoal">0</span></p>
+      <p>Remaining to goal: <span id="remainingToGoal">0</span></p>
+    </section>
+
+    <section class="quick-actions">
+      <a href="savings-form.html">+ Add Entry</a>
+      <a href="savings-log.html">View Savings Log</a>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
